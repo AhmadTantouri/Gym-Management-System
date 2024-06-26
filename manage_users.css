@@ -1,0 +1,92 @@
+/* Manage Users Styles */
+.manage-users-container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.manage-users-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.manage-users-form {
+    text-align: center;
+}
+
+.manage-users-form .form-group {
+    margin-bottom: 20px;
+}
+
+.manage-users-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.manage-users-form input[type="text"],
+.manage-users-form input[type="password"],
+.manage-users-form select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.manage-users-form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.manage-users-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.manage-users-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.manage-users-table th, .manage-users-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    color: #333;
+}
+
+.manage-users-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.manage-users-message {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.manage-users-error-message {
+    background-color: #f44336;
+    color: white;
+}
+
+.manage-users-success-message {
+    background-color: #4CAF50;
+    color: white;
+}
